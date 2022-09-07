@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-736.8272612534258 -227.57564369634747"
+      "location": "0 0"
     },
     {
       "key": "d51430bc-40e4-403f-b019-5ae44c4253a2",
@@ -36,7 +36,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-732.8272612534258 -66.87753048880029"
+      "location": "0 133"
     },
     {
       "key": "fa784856-1d74-46db-9ace-8394f84661b4",
@@ -95,7 +95,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-481.9630637225616 -227.82092671521542"
+      "location": "247 0"
     },
     {
       "key": "dd7b6693-3dd1-49c2-a033-6472ef13c64f",
@@ -132,7 +132,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-486.55565631515424 -67.34922860200788"
+      "location": "247 133"
     },
     {
       "key": "20134fc4-a6fb-4dab-959f-7a9c7696b23b",
@@ -351,7 +351,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-168.28405137688264 -151.02847388502676"
+      "location": "783 133"
     },
     {
       "key": "20a3259a-d961-4be1-bf4c-03345c891f9f",
@@ -523,7 +523,26 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "106.90113380830235 -150.93413426238521"
+      "location": "1298 133"
+    },
+    {
+      "key": "15399eb8-f551-4c3d-8fc8-db8c1a33d027",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "15399eb8-f551-4c3d-8fc8-db8c1a33d027",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "cost",
+            "originalString": "CAST_FLOAT(@cost)"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "515 133"
     }
   ],
   "linkDataArray": [
@@ -546,14 +565,20 @@
       "topid": "IN"
     },
     {
-      "from": "dd7b6693-3dd1-49c2-a033-6472ef13c64f",
-      "to": "20134fc4-a6fb-4dab-959f-7a9c7696b23b",
+      "to": "20a3259a-d961-4be1-bf4c-03345c891f9f",
+      "from": "20134fc4-a6fb-4dab-959f-7a9c7696b23b",
       "frompid": "OUT",
       "topid": "IN"
     },
     {
-      "to": "20a3259a-d961-4be1-bf4c-03345c891f9f",
-      "from": "20134fc4-a6fb-4dab-959f-7a9c7696b23b",
+      "from": "dd7b6693-3dd1-49c2-a033-6472ef13c64f",
+      "to": "15399eb8-f551-4c3d-8fc8-db8c1a33d027",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "15399eb8-f551-4c3d-8fc8-db8c1a33d027",
+      "to": "20134fc4-a6fb-4dab-959f-7a9c7696b23b",
       "frompid": "OUT",
       "topid": "IN"
     }
