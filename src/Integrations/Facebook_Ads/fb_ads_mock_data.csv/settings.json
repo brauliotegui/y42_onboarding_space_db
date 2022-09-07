@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_onboardingspace_c33a7c26c977499c8a48d7eaf337a47f/o?uploadType=resumable&upload_id=ADPycdue1PTGqcxNetjWNlMCA29U0WyjziVi7DntTY6n8aAWFNzkartpw8joFRSCYS0stj9dMmJl8-PcovaXzceyfTWVAQ",
+  "originalName": "fb_ads_mock_data.csv",
+  "size": "1387061",
+  "uri": "gs://y42_onboardingspace_c33a7c26c977499c8a48d7eaf337a47f/userUploads/v2/53/file-upload/cc96670e-e419-45c9-b0e1-84742040c437",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
