@@ -583,5 +583,5 @@
       "topid": "IN"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
 }
