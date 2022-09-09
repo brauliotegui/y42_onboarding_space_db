@@ -95,7 +95,7 @@
             "target": "cost",
             "source": "spend",
             "type": "FLOAT",
-            "display": false,
+            "display": true,
             "changed": false,
             "description": "",
             "source_alias": "",
