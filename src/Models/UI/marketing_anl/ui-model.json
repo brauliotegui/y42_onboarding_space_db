@@ -81,10 +81,21 @@
             "sourceTypeChanged": false
           },
           {
+            "target": "ctr",
+            "source": "ctr",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
             "target": "cost",
             "source": "spend",
             "type": "FLOAT",
-            "display": true,
+            "display": false,
             "changed": false,
             "description": "",
             "source_alias": "",
@@ -211,7 +222,7 @@
               "key": "15399eb8-f551-4c3d-8fc8-db8c1a33d027",
               "target": "cost",
               "source": "cost",
-              "type": "FLOAT",
+              "type": "NUMERIC",
               "display": true,
               "description": "",
               "source_alias": ""
@@ -320,15 +331,6 @@
               "target": "impressions",
               "source": "impressions",
               "type": "INTEGER",
-              "display": true,
-              "description": "",
-              "source_alias": ""
-            },
-            {
-              "key": "fa784856-1d74-46db-9ace-8394f84661b4",
-              "target": "ctr",
-              "source": "ctr",
-              "type": "FLOAT",
               "display": true,
               "description": "",
               "source_alias": ""
@@ -583,5 +585,5 @@
       "topid": "IN"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
+  "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
