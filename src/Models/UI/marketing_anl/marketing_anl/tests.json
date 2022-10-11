@@ -1,4 +1,83 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.5/data-test/data-test-settings.json",
-  "tests": []
+  "$schema": "https://s.y42.com/frontend/0.0.7/data-test/data-test-settings.json",
+  "tests": [
+    {
+      "type": "schema",
+      "allow_new_columns": true,
+      "schema": [
+        {
+          "column": "account_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "ad_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "adgroup",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "adtype",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "campaign",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "clicks",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "day",
+          "allow_null_values": true,
+          "required": true,
+          "type": "TIMESTAMP"
+        },
+        {
+          "column": "engagements",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "impressions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "interactions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "reach",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "views",
+          "allow_null_values": false,
+          "required": true,
+          "type": "INTEGER"
+        }
+      ]
+    }
+  ]
 }
