@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.y42.com/exports/xlsx/0.0.0/table",
+  "datasource_table_path": "src/Integrations/Facebook_Ads/fb_ads_mock_data.csv"
+}
